@@ -1,5 +1,6 @@
 ---
----
+output-file: index.html
+
 format:
   html:
     theme:
@@ -14,7 +15,6 @@ format:
     include-in-header:
       text: |
         <meta name="robots" content="noindex, nofollow">
----
 ---
 
 ```{=html}
@@ -132,7 +132,7 @@ format:
 
 ::: {.section-light}
 
-# Finding a Place to Live
+# Finding a Place to Live {#finding-a-place-to-live}
 
 Finding an apartment in Dallas is fairly straightforward, but prices, incentives, and utility costs can vary significantly between neighborhoods and buildings. The information below covers where to search, common move-in specials, electricity, parking, and the fees you'll likely encounter before signing a lease.
 
@@ -441,7 +441,9 @@ The closer you live to Uptown and McKinney Avenue, the higher the rent but the e
 :::
 ::: {.section-dark}
 
-# Finding an Apartment 
+
+# This Section
+# Finding an Apartment {#finding-an-apartment}
 
 From locating a unit to understanding your first bill, these are the main things that make Dallas apartment hunting different from other cities.
 

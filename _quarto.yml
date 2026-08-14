@@ -1,5 +1,7 @@
 project:
   type: website
+  render:
+    - glp_guide_v2.qmd
 
 format:
   html:
