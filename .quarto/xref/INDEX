@@ -1,0 +1,65 @@
+{
+  "WelcomeToDallas.qmd": {
+    "WelcomeToDallas.html": "8fd2b2d3"
+  },
+  "reccomendations.qmd": {
+    "reccomendations.html": "4500991d"
+  },
+  "neighborhoods.qmd": {
+    "neighborhoods.html": "7e6bfcd3"
+  },
+  "glp_guide.qmd": {
+    "glp_guide.html": "2230444a"
+  },
+  "glp_guide_v2.qmd": {
+    "glp_guide_v2.html": "4e37707c"
+  },
+  "dallas-basics.qmd": {
+    "dallas-basics.html": "887e6996"
+  },
+  "qmd/reccomendations.qmd": {
+    "reccomendations.html": "218099cb"
+  },
+  "qmd/WelcomeToDallas.qmd": {
+    "WelcomeToDallas.html": "c2b47551"
+  },
+  "qmd/glp_guide_v2.qmd": {
+    "glp_guide_v2.html": "4bec0896"
+  },
+  "index.qmd": {
+    "index.html": "91431359"
+  },
+  "transportation.qmd": {
+    "transportation.html": "8423a390"
+  },
+  "recommendations.qmd": {
+    "recommendations.html": "9b796253"
+  },
+  "apartments.qmd": {
+    "apartments.html": "ce15dcb9"
+  },
+  "resources.qmd": {
+    "resources.html": "882f334e"
+  },
+  "qmd/dallas-basics.qmd": {
+    "dallas-basics.html": "d4c397d6"
+  },
+  "qmd/index.qmd": {
+    "index.html": "fa9e5d7b"
+  },
+  "qmd/transportation.qmd": {
+    "transportation.html": "f4ba342c"
+  },
+  "qmd/apartments.qmd": {
+    "apartments.html": "639159a0"
+  },
+  "qmd/neighborhoods.qmd": {
+    "neighborhoods.html": "ef7e82d8"
+  },
+  "qmd/resources.qmd": {
+    "resources.html": "f960e8d4"
+  },
+  "standalone/glp_guide_v2.qmd": {
+    "glp_guide_v2.html": "c4dbdc04"
+  }
+}

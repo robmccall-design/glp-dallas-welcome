@@ -1,0 +1,158 @@
+---
+title: "Apartments"
+---
+
+::: {.section-dark}
+
+# Finding an Apartment
+
+From locating a unit to understanding your first bill, these are the main things that make Dallas apartment hunting different from other cities.
+
+## Where to Search for Apartments
+
+<div class="apartment-search-logos">
+
+  <a
+    href="https://www.apartments.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="apartment-search-card"
+  >
+    <img
+      src="images/apartments-com-logo.png"
+      alt="Apartments.com logo"
+    >
+    <span>Apartments.com</span>
+  </a>
+
+  <a
+    href="https://www.zillow.com/dallas-tx/apartments-1-bedrooms/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="apartment-search-card"
+  >
+    <img
+      src="images/zillow-logo.png"
+      alt="Zillow logo"
+    >
+    <span>Zillow</span>
+  </a>
+
+  <a
+    href="https://www.apartmentlist.com/tx/dallas"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="apartment-search-card"
+  >
+    <img
+      src="images/apartment-list-logo.png"
+      alt="Apartment List logo"
+    >
+    <span>Apartment List</span>
+  </a>
+
+</div>
+
+## PMG Recommendations for Housing
+
+*Sample results from a fictional PMGer housing survey created for this guide.*
+
+```{=html}
+<div class="recommendations-grid apartment-recommendations-grid">
+
+  <article class="recommendation-card">
+    <h3>🏆 The Jordan by Windsor</h3>
+    <p><strong>Neighborhood:</strong> Uptown</p>
+    <p>Walkable to PMG, modern amenities, and easy access to Katy Trail.</p>
+    <div class="tags">
+      <span>12 Votes</span>
+      <span>Walkable</span>
+    </div>
+  </article>
+
+  <article class="recommendation-card">
+    <h3>🥈 MAA Uptown Village</h3>
+    <p><strong>Neighborhood:</strong> Uptown</p>
+    <p>Great location, social atmosphere, and spacious floor plans.</p>
+    <div class="tags">
+      <span>10 Votes</span>
+      <span>Popular</span>
+    </div>
+  </article>
+
+  <article class="recommendation-card">
+    <h3>🥉 Gables Park 17</h3>
+    <p><strong>Neighborhood:</strong> Victory Park</p>
+    <p>High-rise living with nearby restaurants and an easy commute.</p>
+    <div class="tags">
+      <span>9 Votes</span>
+      <span>High-Rise</span>
+    </div>
+  </article>
+
+  <article class="recommendation-card">
+    <h3>The Taylor Uptown</h3>
+    <p><strong>Neighborhood:</strong> Uptown</p>
+    <p>Resort-style amenities and one of the shortest walks to the office.</p>
+    <div class="tags">
+      <span>8 Votes</span>
+      <span>Amenities</span>
+    </div>
+  </article>
+
+  <article class="recommendation-card">
+    <h3>AMLI Design District</h3>
+    <p><strong>Neighborhood:</strong> Design District</p>
+    <p>Excellent value with newer units and convenient highway access.</p>
+    <div class="tags">
+      <span>7 Votes</span>
+      <span>Value</span>
+    </div>
+  </article>
+
+</div>
+```
+
+Tour in person when possible because quality can vary significantly within the same price range, especially in Uptown high-rises. A common starting guideline is to budget about 25–30% of income for rent.
+
+::: {.callout-important}
+Always ask about move-in specials before signing. Apartment locators may also know about unpublished specials or availability.
+:::
+
+## Move-In Deals
+
+| Area or Property Type | Typical Deal Level | What to Expect |
+|---|---|---|
+| Uptown and new high-rises | Biggest deals | One to two-and-a-half months of free rent may be available when buildings are competing to fill new units. |
+| Frisco and Las Colinas | Biggest deals | Newer high-rise and mid-rise buildings often offer aggressive incentives. |
+| Richardson, Addison, and older Plano properties | Smaller but still useful | Waived administrative fees or reduced deposits are more common than large rent concessions. |
+
+Winter, especially November through February, is generally the slowest leasing season and the best time to negotiate. Summer is peak demand and usually has fewer concessions.
+
+## Electricity
+
+Texas has a deregulated electricity market. Use [PowerToChoose.org](https://www.powertochoose.org/){target="_blank"}, the official Public Utility Commission of Texas comparison site, to compare plans by ZIP code.
+
+- Start with a fixed-rate 12-month plan for more predictable billing.
+- Compare the all-in rate at 1,000 kWh, not only the advertised teaser rate.
+- Oncor delivers the electricity and reads the meter regardless of which retail provider you select.
+- Air conditioning may run almost continuously during summer, so budget for higher electric bills from June through September.
+
+## Parking
+
+Uptown high-rises commonly charge **$100–$200 per month** for a reserved garage space, although some properties include surface parking. Suburban complexes in Plano, Frisco, and Richardson are more likely to include parking at no extra cost.
+
+## Apartment Fees
+
+Always ask for the **total effective monthly cost**, not only the advertised base rent.
+
+| Fee | Typical Cost |
+|---|---|
+| Administrative fee | $150–$300 |
+| Application fee | $50–$75 per person |
+| Amenity or valet trash fee | $20–$30 per month |
+| Pet rent | $20–$35 per month, plus deposit |
+| RUBS utility billing | Shared water and trash charges |
+| Garage parking | $100–$200 per month |
+
+:::

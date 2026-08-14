@@ -1,0 +1,198 @@
+---
+format:
+  html:
+    theme:
+      - default
+      - styles.scss
+    toc: false
+    smooth-scroll: true
+    page-layout: full
+    title-block: true
+    embed-resources: true
+---
+
+```{=html}
+<nav class="top-nav">
+  <div class="nav-brand">PMG GLP Program Guide</div>
+
+  <div class="nav-links">
+    <a href="#choosing-your-neighborhood">Neighborhoods</a>
+    <a href="#finding-an-apartment">Apartment</a>
+    <a href="#transportation">Transportation</a>
+    <a href="#weather">Weather</a>
+    <a href="#drivers-license">License</a>
+    <a href="#pmger-recommendations">Recommendations</a>
+    <a href="#helpful-resources">Resources</a>
+  </div>
+</nav>
+```
+# Welcome to Dallas Guide for Incoming GLPers
+
+Welcome to the PMG GLP Program! This guide is designed to help you transition into life in Dallas. WILL NEED TO UPDATE MORE LATER USING IN-DEPTH DETAILS
+
+# Choosing Your Neighborhood
+
+## Inner Loop
+
+The PMG office sits in Uptown, so the closer you live to McKinney Avenue, the shorter your commute — and usually the higher your rent.
+
+## Inner-Loop Options
+
+| Neighborhood | Vibe and what's nearby | Average 1BR rent* |
+|---|---|---|
+| [Uptown](https://www.google.com/search?q=uptown+dallas){target="_blank"} | Walkable to the office, McKinney Avenue trolley, Katy Trail, and nightlife. | $2,400–$2,800+ |
+| [Knox–Henderson](https://www.google.com/search?q=knox+henderson+dallas){target="_blank"} | Trendy shopping and dining, about 10 minutes from the office. | ~$1,800 |
+| [Oak Lawn](https://www.google.com/search?q=oak+lawn+dallas){target="_blank"} | Residential feel with access to Katy Trail and Turtle Creek. | ~$1,900–$2,200 |
+| [Deep Ellum](https://www.google.com/search?q=deep+ellum+dallas){target="_blank"} | Arts, murals, restaurants, and live music east of Downtown. | ~$1,950 |
+| [Bishop Arts](https://www.google.com/search?q=bishop+arts+dallas){target="_blank"} | Walkable shops, restaurants, and patios in a historic district. | ~$1,300–$1,500 |
+| [Lower Greenville](https://www.google.com/search?q=lower+greenville+dallas){target="_blank"} | Bars, restaurants, and a young-professional crowd near Lakewood and SMU. | ~$1,700 |
+
+## Suburban Options
+
+| Area | Vibe and what's nearby | Average 1BR rent* | Commute to Uptown |
+|---|---|---|---|
+| [Richardson](https://www.google.com/search?q=richardson+tx){target="_blank"} | Quiet, good value, and close to UT Dallas and the Telecom Corridor. | ~$1,300–$1,400 | 25–30 min via US-75 |
+| [Addison](https://www.google.com/search?q=addison+tx){target="_blank"} | Large restaurant and bar scene along Belt Line Road. | ~$1,450–$1,550 | 20–25 min via DNT |
+| [Plano](https://www.google.com/search?q=plano+tx){target="_blank"} | Family-friendly, with major corporate offices and Legacy West. | ~$1,350–$1,450 | 30–35 min via DNT or US-75 |
+| [Frisco](https://www.google.com/search?q=frisco+tx){target="_blank"} | Newer development, sports venues, restaurants, and retail. | ~$1,300–$1,400 | 35–45 min via DNT |
+| [Las Colinas](https://www.google.com/search?q=las+colinas+irving){target="_blank"} | Canals, trails, corporate campuses, and quick access to DFW Airport. | ~$1,550–$1,750 | 20–25 min via I-35E |
+
+*Rough averages as of mid-2026. Rents vary by season, building, and current availability.*
+
+::: {.callout-tip}
+### Rule of Thumb
+The closer you live to Uptown and McKinney Avenue, the higher the rent but the easier the commute. Richardson, Plano, and Frisco can cost less but require a daily highway commute.
+:::
+
+# Finding an Apartment
+
+## Where to Search
+
+- [Apartments.com](https://www.apartments.com/){target="_blank"}
+- [Zillow](https://www.zillow.com/dallas-tx/apartments/){target="_blank"}
+- [Apartment List](https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjbv82N24mWAxUqcX8AHTn4DAYYACICCAEQCxoCb2E&co=1&ase=2&gclid=CjwKCAjwvsvTBhBaEiwAmf-3ni68j8czqhSJmE6v6nDrDeRhCroDx8NPZ7K_60o6uWwNEodqz79K0BoC7JQQAvD_BwE&cid=CAASWeRoV_hDPOCkIySofGIxFzOsxFjcNl_5mtzLutcCsUSDTl_mNWmhoaOfHUtQQR578INKsFPDzqjwQ7TPWa1JvbjSbuXFJWY1ErvzILpZy-IAphDmMnLvPhDp&cce=2&category=acrcp_v1_32&sig=AOD64_1IRtqj5sq0zT7pWGU556Dbr4OPsQ&q&nis=4&adurl=https://www.apartmentlist.com/quiz?state%3Dtx%26city%3Ddallas%26verified%3Dtrue%26verified%3Dtrue%26campaign%3Dgoogle_8384380512%26utm_medium%3Dcpc%26utm_source%3Dgoogle%26utm_campaign%3Ds-c-e-8384380512-180137759657-763269643183-kwd-28109180%26utm_content%3Daimax_%7Bexperimentid%7D%26gad_source%3D1%26gad_campaignid%3D8384380512%26gbraid%3D0AAAAADrCDNyJNkRxqpGzIMcsFaKamrzr6%26gclid%3DCjwKCAjwvsvTBhBaEiwAmf-3ni68j8czqhSJmE6v6nDrDeRhCroDx8NPZ7K_60o6uWwNEodqz79K0BoC7JQQAvD_BwE&ved=2ahUKEwjfjcaN24mWAxXsmmoFHY9CBq4Q0Qx6BAgWEAE){target="_blank"}
+
+::: {.callout-important}
+Always ask about move-in specials before signing.
+:::
+
+## Apartment Fees
+
+| Fee | Typical Cost |
+|-----|--------------|
+| Application | $50–75 |
+| Parking | $100–200 |
+| Valet Trash | $20 |
+
+# Transportation
+
+## Major Highways
+
+### US-75
+
+**Pros**
+
+- Direct to Uptown
+- Richardson
+- Plano
+
+**Cons**
+
+- Heavy traffic
+
+### Dallas North Tollway
+
+**Pros**
+
+- Usually faster
+
+**Cons**
+
+- Toll road
+
+## DART
+
+| Item | Cost |
+|------|------|
+| Single Ride | $3 |
+| Day Pass | $6 |
+
+# Weather
+
+## Summer
+
+95–105°F
+
+Very hot.
+
+## Fall
+
+Best weather of the year.
+
+## Winter
+
+Generally mild with occasional ice.
+
+## Spring
+
+Storm season.
+
+# Driver's License
+
+## Within 30 Days
+
+- Register vehicle
+- Emissions inspection
+
+## Within 90 Days
+
+- Texas Driver's License
+
+# PMGer Recommendations
+
+<div id="recommendations-status" class="recommendations-status">
+  Loading recommendations...
+</div>
+
+<div id="recommendations-container"></div>
+
+<div class="recommendations-actions">
+  <button
+    id="show-all-recommendations"
+    class="recommendations-button"
+    type="button"
+    hidden
+    aria-expanded="false"
+    aria-controls="all-recommendations"
+  >
+    View all recommendations
+  </button>
+</div>
+
+<div id="all-recommendations" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script>
+<script src="recommendations.js"></script>
+
+# Helpful Resources
+
+- PowerToChoose
+- NTTA TollTag
+- DART
+
+# Final Checklist
+## PMG Pre-Engagement
+- [ ] Ask P&C Team
+- [ ] For More Ideas
+- [ ] About What To
+- [ ] Put in This Section
+- [ ] As I'm Forgetting
+- [ ] At This Time
+
+## Set Up in Dallas
+- [ ] Choose An apartment
+- [ ] Set up electricity
+- [ ] Order TollTag
+- [ ] Register vehicle
+- [ ] Get Texas driver's license
+- [ ] Download GoPass

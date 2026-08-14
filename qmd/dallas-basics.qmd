@@ -1,0 +1,130 @@
+---
+title: "Dallas Basics"
+---
+
+::: {.section-light}
+
+# Weather
+
+<div class="weather-grid">
+
+<div class="weather-card weather-summer">
+
+### Summer
+
+<div class="weather-highlight">
+
+95–105°F
+
+</div>
+
+Hot and humid from roughly June through September. Air conditioning runs nearly nonstop, and electricity bills can rise substantially.
+
+</div>
+
+<div class="weather-card weather-fall">
+
+### Fall
+
+<div class="weather-highlight">
+
+Best Weather
+
+</div>
+
+October and November usually bring warm days, cooler nights, and lower humidity. Generally the most pleasant time of year.
+
+</div>
+
+<div class="weather-card weather-winter">
+
+### Winter
+
+<div class="weather-highlight">
+
+40s–60s°F
+
+</div>
+
+Usually mild but unpredictable. Ice storms or hard freezes can shut down roads and schools. Keep a coat and blanket in your car.
+
+</div>
+
+<div class="weather-card weather-spring">
+
+### Spring
+
+<div class="weather-highlight">
+
+Storm Season
+
+</div>
+
+Spring is beautiful but volatile. Severe thunderstorms and tornadoes are possible, so keep weather alerts enabled.
+
+</div>
+
+</div>
+
+:::
+
+::: {.section-dark}
+
+# Driver's License & Vehicle Registration
+
+Texas gives new residents firm deadlines. The recommended order is:
+
+1. Complete your emissions inspection
+2. Register your vehicle
+3. Update your insurance
+4. Get your Texas driver's license
+
+## Within 30 Days
+
+### Register Your Vehicle
+
+Register your vehicle at the county tax assessor-collector's office.
+
+Bring:
+
+- Out-of-state title
+- Proof of Texas insurance
+- Photo ID
+
+### Complete an Emissions Inspection
+
+Dallas County requires an annual emissions inspection before registration.
+
+## Within 90 Days
+
+### Get a Texas Driver's License
+
+Bring:
+
+- Proof of identity
+- Social Security number
+- Two proofs of Texas residency
+
+:::
+
+::: {.section-light}
+
+# Texas Auto Insurance
+
+| Coverage | Minimum |
+|---|---:|
+| Bodily injury per person | $30,000 |
+| Bodily injury per accident | $60,000 |
+| Property damage | $25,000 |
+
+Texas minimum liability coverage is commonly referred to as **30/60/25**.
+
+::: {.callout-tip}
+Before registering your vehicle, verify that your insurance policy meets Texas minimum requirements.
+:::
+
+## Register to Vote (Optional)
+
+You can register to vote while obtaining your Texas driver's license or afterward through the Texas voter registration process.
+
+:::

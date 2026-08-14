@@ -1,0 +1,127 @@
+---
+title: "Welcome to Dallas"
+---
+
+```{=html}
+<section class="welcome-hero">
+  <div class="welcome-hero-inner">
+
+    <div class="welcome-copy">
+
+      <h1>Welcome to Dallas</h1>
+
+      <p class="welcome-intro">
+        Welcome to PMG's Graduate Leadership Program! This guide is designed to
+        help you prepare for your move to Dallas and make your transition as
+        smooth as possible. Use the navigation above to explore neighborhoods,
+        apartment recommendations, transportation, Texas requirements, and tips
+        from fellow PMGers.
+      </p>
+
+      <div class="welcome-meta">
+
+        <div class="welcome-meta-item">
+          <span class="welcome-meta-label">Office</span>
+          <span class="welcome-meta-value">
+            PMG Headquarters<br>
+            2601 Olive St, Floor 19<br>
+            Dallas, TX 75201
+          </span>
+        </div>
+
+        <div class="welcome-meta-item">
+          <span class="welcome-meta-label">Program Start</span>
+          <span class="welcome-meta-value">
+            June 7, 2027
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="welcome-map">
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=2601+Olive+St+Dallas+TX+75201"
+        target="_blank"
+      >
+        <img
+          src="images/map.png"
+          alt="PMG Dallas Office"
+        >
+      </a>
+    </div>
+
+  </div>
+</section>
+```
+
+::: {.section-light}
+
+# Getting Started
+
+Choose a topic below to get started.
+
+```{=html}
+<div class="home-grid">
+
+<a class="home-card" href="neighborhoods.html">
+<h3>🏙️ Neighborhoods</h3>
+<p>Compare Dallas neighborhoods, commute times, and average rent.</p>
+</a>
+
+<a class="home-card" href="apartments.html">
+<h3>🏢 Apartments</h3>
+<p>Apartment search tools, move-in specials, utilities, parking, and fees.</p>
+</a>
+
+<a class="home-card" href="transportation.html">
+<h3>🚗 Transportation</h3>
+<p>Learn about highways, DART, TollTags, and Dallas airports.</p>
+</a>
+
+<a class="home-card" href="dallas-basics.html">
+<h3>📋 Texas Basics</h3>
+<p>Weather, driver's license, registration, inspections, and insurance.</p>
+</a>
+
+<a class="home-card" href="recommendations.html">
+<h3>⭐ PMGer Recommendations</h3>
+<p>Browse restaurants, apartments, gyms, coffee shops, and more from fellow PMGers.</p>
+</a>
+
+<a class="home-card" href="resources.html">
+<h3>📚 Resources</h3>
+<p>Helpful links, onboarding checklist, and moving resources.</p>
+</a>
+
+</div>
+```
+
+:::
+
+::: {.section-dark}
+
+# Your First Week
+
+- Find an apartment
+- Set up utilities
+- Order an NTTA TollTag
+- Download the DART GoPass app
+- Visit the PMG office
+- Complete your onboarding tasks
+
+:::
+
+::: {.section-light}
+
+# Office Information
+
+| Item | Information |
+|------|-------------|
+| Address | 2601 Olive Street, Floor 19 |
+| City | Dallas, TX 75201 |
+| Neighborhood | Uptown |
+| Nearby | Katy Trail, Klyde Warren Park, McKinney Ave |
+
+:::

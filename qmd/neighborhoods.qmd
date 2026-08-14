@@ -1,0 +1,90 @@
+---
+title: "Neighborhoods"
+---
+
+::: {.section-light}
+
+# Finding a Place to Live
+
+Finding an apartment in Dallas is fairly straightforward, but where you choose to live has the biggest impact on your commute, budget, and lifestyle. The neighborhoods below are among the most popular choices for PMGers and provide a good starting point for your apartment search.
+
+## Popular Neighborhoods
+
+Whether you're looking for a walkable urban lifestyle or a quieter neighborhood with a shorter rent payment, Dallas has options for every preference.
+
+```{=html}
+<div class="neighborhood-grid">
+
+  <article class="neighborhood-card">
+    <h3>📍 Uptown</h3>
+
+    <div class="neighborhood-meta">
+      <span class="commute">🚶 Walk to PMG</span>
+    </div>
+
+    <div class="tags">
+      <span>Nightlife</span>
+      <span>Katy Trail</span>
+      <span>Walkable</span>
+    </div>
+
+    <p>
+      Walkable to the office, McKinney Avenue trolley, Katy Trail, and nightlife.
+      The most popular choice for new GLPers.
+    </p>
+
+    <div class="rent">$2,400–$2,800+</div>
+
+    <a href="https://www.google.com/search?q=uptown+dallas" target="_blank">
+      View on Google Maps →
+    </a>
+  </article>
+
+  <!-- Knox-Henderson -->
+
+  <!-- Oak Lawn -->
+
+  <!-- Deep Ellum -->
+
+  <!-- Bishop Arts -->
+
+  <!-- Lower Greenville -->
+
+</div>
+```
+
+*(Paste the remaining six neighborhood cards exactly as they are in your current file.)*
+
+---
+
+## Suburban Options
+
+If you're comfortable with a longer commute, the suburbs offer lower rent, larger apartments, and plenty of dining, shopping, and entertainment. Many PMGers choose these areas to maximize space and value while staying within a reasonable drive of the Uptown office.
+
+```{=html}
+<div class="neighborhood-grid">
+
+  <!-- Richardson -->
+
+  <!-- Addison -->
+
+  <!-- Plano -->
+
+  <!-- Frisco -->
+
+  <!-- Las Colinas -->
+
+</div>
+```
+
+*(Paste these five suburb cards exactly as they are now.)*
+
+*Rough averages as of mid-2026. Rents vary by season, building, and current availability.*
+
+::: {.callout-tip}
+## Rule of Thumb
+
+The closer you live to Uptown and McKinney Avenue, the higher the rent—but the easier the commute. Richardson, Plano, Frisco, and Addison generally offer more space for the money, but you'll spend more time driving each day.
+:::
+
+:::

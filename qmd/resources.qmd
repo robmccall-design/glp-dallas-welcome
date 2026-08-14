@@ -1,0 +1,41 @@
+---
+title: "Resources"
+---
+
+::: {.section-light}
+
+# Helpful Resources
+
+Here's all the resources you may need as you begin your move to Dallas:
+
+- [PowerToChoose](https://www.powertochoose.org/){target="_blank"} — Official electricity-plan comparison site
+- [NTTA TollTag](https://www.ntta.org/){target="_blank"} — TollTag registration and account management
+- [DART](https://www.dart.org/){target="_blank"} — Fares, routes, rail, buses, and GoPass
+- [Texas DPS](https://www.dps.texas.gov/){target="_blank"} — Driver's license information and appointments
+
+:::
+
+::: {.section-dark}
+
+# PMG Pre-Engagement
+
+- [ ] Ask the P&C Team for additional onboarding recommendations
+- [ ] Review PMGer apartment and neighborhood suggestions
+- [ ] Confirm first-day office details
+- [ ] Save important PMG contacts
+
+# Set Up in Dallas
+
+- [ ] Choose an apartment
+- [ ] Set up electricity before move-in
+- [ ] Set up renter's insurance
+- [ ] Order an NTTA TollTag
+- [ ] Complete the emissions inspection
+- [ ] Register the vehicle within 30 days
+- [ ] Update auto insurance to Texas minimums
+- [ ] Get a Texas driver's license within 90 days
+- [ ] Download the DART GoPass app
+- [ ] Update mailing address with USPS, bank, and employer
+- [ ] Register to vote, if desired
+
+:::

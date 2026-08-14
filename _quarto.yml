@@ -1,0 +1,13 @@
+project:
+  type: website
+
+format:
+  html:
+    theme:
+      - default
+      - styles.scss
+    toc: false
+    smooth-scroll: true
+    page-layout: full
+    title-block: false
+    anchor-sections: false
