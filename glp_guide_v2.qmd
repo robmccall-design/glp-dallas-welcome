@@ -136,11 +136,14 @@ format:
 
 Finding an apartment in Dallas is fairly straightforward, but prices, incentives, and utility costs can vary significantly between neighborhoods and buildings. The information below covers where to search, common move-in specials, electricity, parking, and the fees you'll likely encounter before signing a lease.
 
-## Selecting the Right Neighborhoods {#neighborhood-options}
+::: {.panel-tabset}
+## **Neighborhoods** {#neighborhood-options}
 
 Choosing where to live can have a major impact on your commute, budget, and day-to-day experience in Dallas. The neighborhoods below are popular starting points for incoming GLPers.
 
-## Local Options
+### Local Options
+Add description for options that are closer to the options
+
 ```{=html}
 <div class="neighborhood-grid">
 
@@ -297,7 +300,7 @@ Choosing where to live can have a major impact on your commute, budget, and day-
 </div>
 ```
 
-## Suburban Options {#suburban-options}
+### Suburban Options {#suburban-options}
 If you're comfortable with a longer commute, the suburbs offer lower rent, larger apartments, and plenty of dining, shopping, and entertainment. Many PMGers choose these areas to maximize space and value while staying within a reasonable drive of the Uptown office.
 ```{=html}
 <div class="neighborhood-grid">
@@ -438,16 +441,12 @@ If you're comfortable with a longer commute, the suburbs offer lower rent, large
 The closer you live to Uptown and McKinney Avenue, the higher the rent but the easier the commute. Richardson, Plano, and Frisco can cost less and offer more space, but they require a daily highway commute.
 :::
 
-:::
-::: {.section-dark}
 
-
-# This Section
-# Finding an Apartment {#finding-an-apartment}
+## **Apartment Search** {#finding-an-apartment}
 
 From locating a unit to understanding your first bill, these are the main things that make Dallas apartment hunting different from other cities.
 
-## Where to Search for Apartments {#apartment-search}
+### **Where to Search for Apartments** {#apartment-search}
 
 <div class="apartment-search-logos">
 
@@ -492,7 +491,7 @@ From locating a unit to understanding your first bill, these are the main things
 
 </div>
 
-## PMG Recommendations for Housing {#housing-recommendations}
+### **PMG Recommendations for Housing** {#housing-recommendations}
 *Sample results from a fictional PMGer housing survey created for this guide.*
 
 ```{=html}
@@ -557,12 +556,11 @@ Tour in person when possible because quality can vary significantly within the s
 Always ask about move-in specials before signing. Apartment locators may also know about unpublished specials or availability.
 :::
 
-::: {.section-light}
-# Fees, Deposits, and Move-In Deals {#move-in-deals}
+## **Fees, Deposits, and Move-In Deals** {#move-in-deals}
 
 Winter, especially November through February, is generally the slowest leasing season and the best time to negotiate. Summer is peak demand and usually has fewer concessions. However, it's important to note the more common move-in deals that you may see during your apartment search process
 
-## Deals on Housing
+### **Deals on Housing**
 
 | Area or Property Type | Typical Deal Level | What to Expect |
 |---|---|---|
@@ -570,7 +568,7 @@ Winter, especially November through February, is generally the slowest leasing s
 | Frisco and Las Colinas | Biggest deals | Newer high-rise and mid-rise buildings often offer aggressive incentives. |
 | Richardson, Addison, and Older Plano Properties | Smaller but still useful | Waived administrative fees or reduced deposits are more common than large rent concessions. |
 
-## Apartment Fees {#apartment-fees}
+### **Apartment Fees** {#apartment-fees}
 
 Always ask for the **total effective monthly cost**, not only the advertised base rent.
 
@@ -588,11 +586,9 @@ Always ask for the **total effective monthly cost**, not only the advertised bas
 :::{.callout-important}
 Always ask about move-in specials before signing. Apartment locators may also know about unpublished specials or availability.
 :::
-:::
 
-::: {.section-dark}
 
-# Electricity {#electricity}
+## **Electricity** {#electricity}
 
 Texas has a deregulated electricity market. Use [PowerToChoose.org](https://www.powertochoose.org/){target="_blank"}, the official Public Utility Commission of Texas comparison site, to compare plans by ZIP code.
 
@@ -600,17 +596,19 @@ Texas has a deregulated electricity market. Use [PowerToChoose.org](https://www.
 - Compare the all-in rate at 1,000 kWh, not only the advertised teaser rate.
 - Oncor delivers the electricity and reads the meter regardless of which retail provider you select.
 - Air conditioning may run almost continuously during summer, so budget for higher electric bills from June through September.
-:::
-::: {.section-light}
 
-# Parking and Transportation {#parking-and-transportation}
+
+:::
+
+::: {.section-dark}
+# Getting Around Dallas {#parking-and-transportation}
 
 Uptown high-rises commonly charge **$100–$200 per month** for a reserved garage space, although some properties include surface parking. Suburban complexes in Plano, Frisco, and Richardson are more likely to include parking at no extra cost. 
 
-
 However, previous GLP classes have emphasized the need to make sure whether the parking is inside the apartment complex or not!
 
-## Driving Through Dallas {#driving-through-dallas}
+::: {.panel-tabset}
+## **Driving Through Dallas** {#driving-through-dallas}
 
 Dallas is primarily a driving city built around highways and tollways. Plan for traffic, toll costs, and commute variability.
 
@@ -721,9 +719,7 @@ Dallas is primarily a driving city built around highways and tollways. Plan for 
 US-75 is the route most associated with unpredictable congestion. The Dallas North Tollway is often more reliable but costs money via Toll Tag.
 :::
 
-::: {.section-dark} 
-
-# DART and TollTag {#dart-tolltag}
+## **Public Transit and TollTag** {#dart-tolltag}
 
 The Dallas–Fort Worth area offers two primary ways to get around: DART for public transportation and the NTTA TollTag for driving on toll roads.
 
@@ -739,7 +735,7 @@ The Dallas–Fort Worth area offers two primary ways to get around: DART for pub
 
 
 
-### Airports {#airports}
+## **Airports** {#airports}
 
 ```{=html}
 <div class="airport-grid">
@@ -763,11 +759,19 @@ The Dallas–Fort Worth area offers two primary ways to get around: DART for pub
 
 </div>
 ```
+
+:::
 :::
 
 ::: {.section-light}
 
-## Weather in Texas {#weather}
+# Getting Settled in Texas
+
+Add section description for future use for GLPs
+
+::: {.panel-tabset}
+
+## **Weather in Texas** {#weather}
 
 <div class="weather-grid">
 
@@ -828,17 +832,8 @@ Spring is beautiful but volatile. Severe thunderstorms and tornadoes are possibl
 </div>
 
 </div>
-:::
 
-::: {.section-dark}
-
-# Driver's License {#license}
-
-Texas gives new residents firm deadlines. The recommended order is vehicle inspection, registration, insurance verification, and then the Texas driver's license.
-
-### Within 30 Days
-
-#### Register Your Vehicle {#vehicle-registration}
+## **Register Your Vehicle** {#vehicle-registration}
 
 Register your vehicle at the county tax assessor-collector's office. Uptown residents will generally use Dallas County. Bring:
 
@@ -848,13 +843,15 @@ Register your vehicle at the county tax assessor-collector's office. Uptown resi
 
 You must register the vehicle before applying for a Texas driver's license.
 
-#### Complete an Emissions Inspection {#emissions-inspection}
+### Complete an Emissions Inspection {#emissions-inspection}
 
 Dallas County requires an annual emissions inspection before registration. Texas eliminated the general safety inspection requirement in 2025, but emissions testing still applies in Dallas and several other DFW-area counties.
 
-### Within 90 Days
+## **Driver's License** {#license}
 
-#### Getting a Texas Driver's License {#texas-drivers-license}
+Texas gives new residents firm deadlines. The recommended order is vehicle inspection, registration, insurance verification, and then the Texas driver's license.
+
+### Getting a Texas Driver's License {#texas-drivers-license}
 
 Apply through the Texas Department of Public Safety. Bring:
 
@@ -864,7 +861,6 @@ Apply through the Texas Department of Public Safety. Bring:
 
 :::
 
-::: {.section-light}
 # Optional
 
 #### Register to Vote {#register-to-vote}
@@ -1523,3 +1519,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
+
+:::
