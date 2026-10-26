@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", async function () {
   const categories = [
     { key: "food", label: "Food", emoji: "🍔" },
     { key: "coffee", label: "Coffee", emoji: "☕" },
-    { key: "bars", label: "Bars", emoji: "🍺" }
+    { key: "bars", label: "Bars", emoji: "🍺" },
+    { key: "things-to-do", label: "Things to Do", emoji: "🎟️" }
   ];
 
   const statusElement = document.getElementById("recommendations-status");
@@ -99,8 +100,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     allRecommendationsContainer.hidden = !shouldOpen;
 
     showAllButton.textContent = shouldOpen
-      ? "Hide full list"
-      : "View all recommendations";
+      ? "Hide Full List"
+      : "View All Recommendations";
 
     showAllButton.setAttribute(
       "aria-expanded",
@@ -138,7 +139,14 @@ document.addEventListener("DOMContentLoaded", async function () {
       cafes: "coffee",
       cafés: "coffee",
       bar: "bars",
-      bars: "bars"
+      bars: "bars",
+      activity: "things-to-do",
+      activities: "things-to-do",
+      attraction: "things-to-do",
+      attractions: "things-to-do",
+      entertainment: "things-to-do",
+      "thing to do": "things-to-do",
+      "things to do": "things-to-do"
     };
 
     return aliases[normalized] || "";
@@ -148,7 +156,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     const grouped = new Map([
       ["food", new Map()],
       ["coffee", new Map()],
-      ["bars", new Map()]
+      ["bars", new Map()],
+      ["things-to-do", new Map()]
     ]);
 
     responses.forEach(function (response) {
@@ -221,8 +230,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     container.replaceChildren();
 
     categoryConfig.forEach(function (category) {
-      const recommendations =
-        grouped.get(category.key) || [];
+      const recommendations = (grouped.get(category.key) || [])
+        .filter(function (recommendation) {
+          return Boolean(recommendation.website);
+        });
 
       const section = document.createElement("section");
       section.className = "recommendation-category";
@@ -234,57 +245,50 @@ document.addEventListener("DOMContentLoaded", async function () {
 
       section.appendChild(heading);
 
+      const card = document.createElement("article");
+      card.className = "recommendation-card";
+
       if (recommendations.length === 0) {
         const emptyMessage = document.createElement("p");
         emptyMessage.className = "recommendations-empty";
         emptyMessage.textContent = "Coming soon...";
 
-        section.appendChild(emptyMessage);
+        card.appendChild(emptyMessage);
       } else {
-        const grid = document.createElement("div");
-        grid.className = "recommendations-grid";
+        const list = document.createElement("ol");
+        list.className = "recommendation-list";
 
-        const card = document.createElement("article");
-card.className = "recommendation-card";
+        recommendations
+          .slice(0, 3)
+          .forEach(function (recommendation) {
+            const item = document.createElement("li");
+            const link = document.createElement(
+              recommendation.website ? "a" : "span"
+            );
 
-const list = document.createElement("ol");
-list.className = "recommendation-list";
+            link.className = "recommendation-name";
 
-recommendations
-  .slice(0, 3)
-  .forEach(function (recommendation) {
+            if (recommendation.website) {
+              link.href = recommendation.website;
+              link.target = "_blank";
+              link.rel = "noopener noreferrer";
+            }
 
-    const item = document.createElement("li");
+            link.textContent = recommendation.name;
 
-    const link = document.createElement(
-      recommendation.website ? "a" : "span"
-    );
+            const count = document.createElement("span");
+            count.className = "recommendation-count";
+            count.textContent =
+              `${recommendation.count} PMGer${recommendation.count === 1 ? "" : "s"}`;
 
-    link.className = "recommendation-name";
+            item.append(link, count);
+            list.appendChild(item);
+          });
 
-    if (recommendation.website) {
-      link.href = recommendation.website;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-    }
+        card.appendChild(list);
+      }
 
-    link.textContent = recommendation.name;
-
-    const count = document.createElement("span");
-    count.className = "recommendation-count";
-    count.textContent =
-      `${recommendation.count} PMGer${recommendation.count === 1 ? "" : "s"}`;
-
-    item.append(link, count);
-
-    list.appendChild(item);
-
-  });
-
-card.appendChild(list);
-section.appendChild(card);
-
-}
+      section.appendChild(card);
 
       container.appendChild(section);
     });
@@ -309,12 +313,7 @@ section.appendChild(card);
   const panels = document.createElement("div");
   panels.className = "recommendation-tab-panels";
 
-  const availableCategories = categoryConfig.filter(function (category) {
-    const recommendations = grouped.get(category.key) || [];
-    return recommendations.length > 0;
-  });
-
-  availableCategories.forEach(function (category, index) {
+  categoryConfig.forEach(function (category, index) {
     const recommendations = grouped.get(category.key) || [];
 
     const tabId = `recommendation-tab-${category.key}`;
@@ -352,19 +351,29 @@ section.appendChild(card);
     const list = document.createElement("div");
     list.className = "full-recommendations-list";
 
-    recommendations.forEach(function (
-      recommendation,
-      recommendationIndex
-    ) {
-      list.appendChild(
-        createFullRecommendation(
-          recommendation,
-          recommendationIndex + 1
-        )
-      );
-    });
+    if (recommendations.length === 0) {
+      const emptyMessage = document.createElement("p");
+      emptyMessage.className =
+        "recommendations-empty full-recommendations-empty";
+      emptyMessage.textContent =
+        `No ${category.label.toLowerCase()} recommendations yet. Check back soon.`;
 
-    panel.appendChild(list);
+      panel.appendChild(emptyMessage);
+    } else {
+      recommendations.forEach(function (
+        recommendation,
+        recommendationIndex
+      ) {
+        list.appendChild(
+          createFullRecommendation(
+            recommendation,
+            recommendationIndex + 1
+          )
+        );
+      });
+
+      panel.appendChild(list);
+    }
 
     tabs.appendChild(tab);
     panels.appendChild(panel);
